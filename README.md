@@ -62,33 +62,6 @@ We used two primary datasets for training our model:
 - Django
 - Flutter
 
-### Steps
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/sketch-recognition-software.git
-    cd sketch-recognition-software
-    ```
-
-2. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up the Django backend:
-    ```bash
-    cd backend
-    python manage.py migrate
-    python manage.py runserver
-    ```
-
-4. Set up the Flutter frontend:
-    ```bash
-    cd ../frontend
-    flutter pub get
-    flutter run
-    ```
-
 ## Usage
 
 1. Run the backend server:
@@ -102,6 +75,18 @@ We used two primary datasets for training our model:
     ```
 
 3. Start sketching on the canvas and receive real-time feedback on your drawings.
+   
+
+## View Across Devices
+
+### Tab View 
+
+![envelopDemo](https://github.com/esikaupoma/Sketch-Recognition-Software-with-CNN/assets/126023004/ccdc5c4f-5ba7-49bd-9da9-691ed8356e25)
+
+### Laptop View 
+
+![umbrellaDemo](https://github.com/esikaupoma/Sketch-Recognition-Software-with-CNN/assets/126023004/5c15f98b-5e7c-4878-be56-c43ef4a2b6b8)
+
 
 ### Model Performance
 
